@@ -206,6 +206,12 @@ h3 {
 .work img {
 	box-shadow: 0 10px 6px -6px #777;
 	width: 100%;
+	transition: all 0.1s;
+}
+
+.work img:hover {
+	opacity: 0.6;
+	transform: scale(1.1);
 }
 
 .work-name {
