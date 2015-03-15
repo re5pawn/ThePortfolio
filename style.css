@@ -240,7 +240,6 @@ h3 {
 	height: 33px;
 	background-color: #e8e8e8;
 	padding: 5px;
-	outline: none;
 	border: 1px solid #f9f8f6;
 	border-left-color: #bababa;
 	border-top-color: #bababa;
@@ -261,7 +260,7 @@ h3 {
 	color: #fff;
 	font-family: inherit;
 	font-size: 24px;
-	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.32);
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.32);
 	margin-top: 20px;
 }
 
@@ -336,4 +335,23 @@ footer {
 	display: inline-block;
 	font-size: 18px;
 	margin-left: 15px;
+}
+
+/* Custom Fonts */
+
+@font-face {
+	font-family: 'bebas_neue_regularregular';
+	src: url(fonts/bebasneue/bebasneue_regular.eot);
+	src: url(fonts/bebasneue/bebasneue_regular.eot?#iefix) format('embedded-opentype'),
+		 url(fonts/bebasneue/bebasneue_regular.woff) format('woff'),
+		 url(fonts/bebasneue/bebasneue_regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro Regular';
+	src: local('Myriad Pro Regular'), url(fonts/myriad-pro/MYRIADPRO-REGULAR.woff) format('woff');
+	font-style: normal;
+	font-weight: normal;
 }
