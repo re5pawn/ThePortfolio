@@ -1,0 +1,58 @@
+<link rel="stylesheet" type="text/css" href="goods-popup.css">
+<meta charset="utf-8">
+
+<div class="wrapper">
+
+	<div id="modal">
+
+		<!-- Заголовок модального окна -->
+		<div class="modal-header">
+			<p class="modal-title">
+				<span class="count">2 товара</span> на сумму 
+				<span class="sum">1 075 грн</span><button type="button" class="modal-close">×</button>
+			</p>
+		</div>
+
+		<!-- Содержимое модального окна -->
+		<div class="modal-body">
+			<div class="image-preview">
+				<img src="toy.jpg">
+			</div>
+			<div class="name">
+				<p>Игровой набор - Ноев Ковчег (на колесах, озвуч. рус. яз.)</p>
+			</div>
+			<div class="description">
+				<p><span>Производитель:</span> <span class="creator">Sony</span></p>
+				<p><span>Модель:</span> <span>049734</span></p>
+				<p><span>Наличие:</span> <span>Есть в наличии</span></p>
+			</div>
+			<div class="form-group">
+				<div class="price">
+					<span class="price-tax">880 грн</span>
+					<span class="price-first">1080 грн</span>
+				</div>
+	            <label class="control-label" for="input-quantity">Количество</label>
+	            <input type="button" id="minus">
+				<input type="text" name="quantity" value="1" size="2" id="input-quantity" class="form-control">
+				<input type="button" id="plus">
+				<input type="hidden" name="product_id" value="46">
+	            <button type="button" id="button-cart" data-loading-text="Загрузка..." class="btn btn-primary btn-lg btn-block"><span>В корзину</span></button>
+            </div>
+
+            <div class="back-site">
+				<p>Продолжить покупки</p>
+				<p>Вертуться на сайт</p>
+			</div>
+		</div>
+
+		<!-- Нижная часть модального окна -->
+		<div class="modal-footer">
+			<p class="title">Заказать через телефон </p>
+			<p class="sub-title">Оставьте телефон и консультант решит все вопросы по оформлению заказа</p>
+			+38 <input type="text" name="quantity" value="1" size="2" id="input-quantity" class="form-control">
+			<button type="button" id="button-cart" data-loading-text="Ожидайте..." class="btn btn-lg wait-call"><span>Жду звонка</span></button>
+		</div>
+
+
+	</div>
+</div>
